@@ -9,7 +9,7 @@ import WelcomePage from './components/WelcomePage';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
          <Route exact path='/'>
          <Navbar />
