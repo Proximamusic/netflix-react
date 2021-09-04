@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161616;
+    position: sticky;
+    transition: background-color 300ms ease-in-out;
+    top: 0;
+    z-index: 2;
+}
+.navbar-image{
+    max-width: 130px;
+    margin-left: 20px;
+}
+.navbar-buttons{
+  display: flex;
+  gap: 1.5rem;
+  margin-right: 20px;
+}
+.btn{
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
+.btn-sign-in{
+  border: none;
+  width: 80px;
+  background-color: #f73535;
+ 
+}
+.navbar-languages{
+    border: 1px solid white;
+    background-color: transparent;
+
+}

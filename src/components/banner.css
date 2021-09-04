@@ -1,0 +1,76 @@
+.banner{
+    height: 130vh;
+    background-image: url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.banner:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+.banner-container{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    color: white;
+    text-align: center;
+    margin-top: -400px;
+}
+.banner-heading{
+    font-size: 3.8rem;
+    margin-bottom: 10px;
+}
+.banner-subheading{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.banner-email-action{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+
+}
+.banner-input{
+    display: flex;
+    align-items: center;
+}
+.banner-input-textfield{
+    height: 60px !important;
+    padding: 0 10px;
+    min-width: 400px;
+    border-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border:none;
+    outline: none;
+    font-size: 1rem;
+}
+.banner-input-btn{
+    height: 63px ;
+    min-width: 150px;
+    font-size: 1.6rem;
+    padding: 0 1em;
+    border-radius: 0;
+    border: 1px solid #333;
+    background-color: #e50914;
+    color: white;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+
+}
