@@ -1,0 +1,27 @@
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+    padding: 70px 0;
+}
+
+.jumbotron-text{
+    width: 40%;
+}
+.jumbotron-image{
+    width: 100%;
+    max-width: 500px;
+    
+}
+.jumbotron-text-heading{
+    margin-bottom: .5rem;
+    font-size: 3.2rem;
+    line-height: 1.1;
+}
+.jumbotron-text-subheading{
+    font-size: 1.6rem;
+    font-weight: 400;
+}

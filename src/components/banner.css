@@ -1,5 +1,5 @@
 .banner{
-    height: 130vh;
+    height: 100vh;
     background-image: url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     position: relative;
+    background-color: grey;
     
 }
 .banner:after {
@@ -29,7 +30,7 @@
     width: 50%;
     color: white;
     text-align: center;
-    margin-top: -400px;
+    margin-top: -100px;
 }
 .banner-heading{
     font-size: 3.8rem;

@@ -15,6 +15,7 @@ export default function Banner() {
           <button className="banner-input-btn">Get Started </button>
       </div>
       </div>
+     
     </div>
   );
 }

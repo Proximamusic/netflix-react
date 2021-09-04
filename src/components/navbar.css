@@ -2,14 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #161616;
+    background-color: #242323;
     position: sticky;
     transition: background-color 300ms ease-in-out;
     top: 0;
     z-index: 2;
 }
 .navbar-image{
-    max-width: 130px;
+    max-width: 150px;
     margin-left: 20px;
 }
 .navbar-buttons{
