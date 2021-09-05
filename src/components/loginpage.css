@@ -1,0 +1,70 @@
+.loginpage{
+    height: 100vh;
+    background-image: url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: contain;
+}
+
+.loginpage-form-heading{
+    margin-bottom: 20px;
+}
+.loginpage-form{
+    color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    margin: 70px auto 0;
+    position: relative;
+
+}
+.loginpage-form::before{
+    content: '';
+    width: 450px;
+    height: 550px;
+    display: block;
+    position: absolute;
+    right: -30%;
+    top: -10%;
+    background-color: rgba(0, 0, 0, .9);
+    border-radius: 3px;
+
+    /* opacity: .8; */
+    z-index: -1;
+}
+.loginpage-form .input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border: none;
+}
+.check{
+ margin: 10px 0;
+
+}
+.btn-lg{
+    color: white;
+    font-size: 1.1rem;
+    display: block;
+    width: 320px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: #f73535;
+    border: none;
+
+}
+.submit{
+    text-decoration: none;
+}

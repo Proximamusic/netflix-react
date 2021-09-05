@@ -1,7 +1,8 @@
 import React, { useState,useEffect } from 'react'
+import { Link } from 'react-router-dom';
 import "./navbar.css"
 
-function Navbar() {
+function Navbar(props) {
     const[scroll, setScroll] = useState(false);
     // console.log(window.scrollY);
     const handleScroll = ()=>{
@@ -19,14 +20,14 @@ function Navbar() {
     }, [])
     return (
         <div className="navbar" style={{backgroundColor: scroll?'transparent':'black'}}>
-             <img className='navbar-image' src="/images/netflix-logo.png" alt="" />
-        <div className="navbar-buttons">
+             <Link to="/"><img className='navbar-image' src="/images/netflix-logo.png" alt="" /></Link>
+        <div className="navbar-buttons" style={{display: props.login &&"none"}}>
             <select className='btn navbar-languages' name="Language" id="lang">
                 <option value="English">English</option>
                 <option value="Hindi">हिंदी</option>
                 </select>
             <button className=" btn btn-sign-in">
-                Sign in 
+               <Link to='/login' className='sign-in'> Sign in </Link>
             </button>
         </div>
         </div>

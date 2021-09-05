@@ -4,6 +4,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router,Switch,Route } from 'react-router-dom'
 import WelcomePage from './components/WelcomePage';
+import LoginPage from './components/LoginPage';
+import HomeScreen from './components/HomeScreen';
 
 
 function App() {
@@ -17,14 +19,11 @@ function App() {
          </Route>
 
          <Route exact path='/home'>
-         <Navbar />
-       <h1>home</h1>
+          <HomeScreen/>
          </Route>
 
          <Route exact path='/login'>
-         <Navbar />
-       <h1>login</h1>
-         
+         <LoginPage />
          </Route>
 
       

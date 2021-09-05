@@ -27,9 +27,14 @@
 }
 .btn-sign-in{
   border: none;
-  width: 80px;
+  width: 100px;
   background-color: #f73535;
  
+ 
+}
+.sign-in{
+  color: white;
+  text-decoration: none;
 }
 .navbar-languages{
     border: 1px solid white;
