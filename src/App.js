@@ -6,6 +6,7 @@ import { BrowserRouter as Router,Switch,Route } from 'react-router-dom'
 import WelcomePage from './components/WelcomePage';
 import LoginPage from './components/LoginPage';
 import HomeScreen from './components/HomeScreen';
+import HomeNav from './components/HomeNav';
 
 
 function App() {
